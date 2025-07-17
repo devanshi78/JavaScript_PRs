@@ -1,0 +1,63 @@
+<script>
+    // indexof 
+
+    let items = ["banana","orange","kiwi","mango","orange","apple"];
+
+    console.log(items);
+    console.log(items.indexOf("mango"));
+
+    // lastindexof
+
+    console.log(items.lastIndexOf("orange"));
+
+    // includes()
+
+    console.log(items.includes("kiwi"));
+
+    // find()
+        // array of object
+
+    let users = [
+        {
+            id : 1,
+            name : "Devanshi",
+            email : "devanshi@gmail.com",
+            age : 21,
+        },
+        {
+            id : 2,
+            name : "maitri",
+            email : "maitri@gmail.com",
+            age : 20,
+        },
+        {
+            id : 3,
+            name : "riya",
+            email : "riya@gmail.com",
+            age : 21,
+        },
+        {
+            id : 4,
+            name : "drashti",
+            email : "drashti@gmail.com",
+            age : 21,
+        },
+        {
+            id : 5,
+            name : "doll",
+            email : "doll@gmail.com",
+            age : 21,
+        },
+    ]
+
+    let user = users.find((user) => user.id === 2);
+    console.log(users);
+    console.log(user);
+
+    // findIndex()
+
+    let index = users.findIndex((index) => index.id === 4);
+    console.log(users);
+    console.log(index);
+
+</script>

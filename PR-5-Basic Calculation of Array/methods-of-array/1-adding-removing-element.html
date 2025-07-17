@@ -1,0 +1,38 @@
+<script>
+    // push method push()
+
+    let items = ["banana","mango","kiwi","orange","grapes"];
+
+    let itemsMethod = items.push("apple");
+    console.log(itemsMethod);
+    console.log(items);
+
+    // pop method pop()
+
+    let itempop = items.pop();
+    console.log(itempop);
+    console.log(items);
+
+    // unshift (to add items in starting)
+
+    items.unshift("berry");
+    console.log(items);
+
+    // shift (to removing item from starting)
+
+    items.shift();
+    console.log(items);
+
+    // splice (to remove items from specific index)
+
+    items.splice(0,1);
+    console.log(items);
+    items.splice(2,3,"abc");
+    console.log(items);
+
+    // slice 
+    let bestItems = items.slice(0,1);
+    console.log(bestItems);
+    console.log(items);
+    
+</script>
