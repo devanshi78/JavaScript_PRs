@@ -5,15 +5,15 @@ A clean and responsive image slider made using **HTML**, **CSS**, and **JavaScri
 ## 📂 Project Structure
 
 PR-7-SLIDER/
-├── index.html # Main HTML file
+├── index.html         # Main HTML file
 ├── css/
-│ ├── style.css # Custom styles
-│ └── all.min.css # Font Awesome icons (if used)
+│   ├── style.css      # Custom styles
+│   └── all.min.css    # Font Awesome icons (if used)
 ├── js/
-│ └── script.js # Slider functionality
-├── imgs/ # Product images
-├── webfonts/ # Icon font files
-└── README.md # Project info
+│   └── script.js      # Slider functionality
+├── imgs/              # Product images
+├── webfonts/          # Icon font files
+└── README.md          # Project info
 
 ## 🚀 Features
 
