@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header start */
+
+.main-header {
+    background-color: rgb(40, 39, 39);
+    border-bottom: 1px solid #ddd;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo span{
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.logo span:hover {
+    color: rgb(168, 111, 168);
+}
+  
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: rgb(168, 111, 168);
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* header end */
+
+.slider{
+    width: 100%;
+    position: relative;
+}
+
+.h-90{
+    height: 90vh;
+}
+
+.slide-item{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.prod1, .prod2, .prod3, .prod4, .prod5{
+    object-fit: contain;
+}
+
+.active{
+    display: block;
+}
+
+.slider .prev, .slider .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 11px;
+    margin-left: 5px;
+}
+
+.slider .next{
+    right: 0;
+}

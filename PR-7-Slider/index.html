@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <span>Foxtale</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Blog</a>
+                <a href="#">Pages</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="header-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+                <i class="fas fa-bars menu-toggle"></i>
+            </div>
+        </div>
+  </header>
+    <div class="container">
+        <div class="slider h-90">
+            <div class="slide-item active" style="background: linear-gradient(90deg,#FD879F 0%, #DE2C2C 100%);">
+                <img class="prod1" src="./imgs/product1.png" alt="product1">
+            </div>
+            <div class="slide-item" style="background: linear-gradient(90deg,#FDE96C 0%, #f09712 100%);">
+                <img class="prod1" src="./imgs/product2.png" alt="product1">
+            </div>
+            <div class="slide-item" style="background: linear-gradient(90deg,#C7A4C2 0%, #682B4A 100%);">
+                <img class="prod1" src="./imgs/product3.png" alt="product1">
+            </div>
+            <button class="prev" id="prev">
+                <span hidden>prev</span>
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="next" id="next">
+                <span hidden>next</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
