@@ -4,6 +4,7 @@ A clean and responsive image slider made using **HTML**, **CSS**, and **JavaScri
 
 ## 📂 Project Structure
 
+```
 PR-7-SLIDER/
 ├── index.html         # Main HTML file
 ├── css/
@@ -14,6 +15,7 @@ PR-7-SLIDER/
 ├── imgs/              # Product images
 ├── webfonts/          # Icon font files
 └── README.md          # Project info
+```
 
 ## 🚀 Features
 
